@@ -42,8 +42,8 @@ def main():
 
   # View
   row1 = tk.Frame(root)
-  title = tk.Label(row1, text = "Clicks: ", font = ("Microsoft YaHei", 14))
-  count_display = tk.Label(row1, textvariable = count, font = ("Consolas", 32))
+  title = tk.Label(row1, text = "Clicks: ", font = ("Microsoft YaHei", 14), bg = 'lightblue')
+  count_display = tk.Label(row1, textvariable = count, font = ("Consolas", 32), bg = 'lightgreen')
 
   def bump():
     count.set(count.get() + 1)
